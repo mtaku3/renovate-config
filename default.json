@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Shared Renovate preset for mtaku3's repositories.",
+  "extends": ["config:recommended", "customManagers:dockerfileVersions"],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
+}
