@@ -9,4 +9,4 @@ Shared [Renovate](https://docs.renovatebot.com/) preset. Use it from a repositor
 }
 ```
 
-`default.json` extends `config:recommended` and `customManagers:dockerfileVersions`, so `# renovate:` comments above `ARG`/`ENV *_VERSION` lines in Dockerfiles are tracked. It also turns on lock file maintenance.
+`default.json` extends `config:recommended` and `customManagers:dockerfileVersions`, so `# renovate:` comments above `ARG`/`ENV *_VERSION` lines in Dockerfiles are tracked. It also turns on lock file maintenance and turns off the devbox manager, since devbox.json only holds local development tools.

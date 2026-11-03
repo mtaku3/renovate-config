@@ -2,6 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Shared Renovate preset for mtaku3's repositories.",
   "extends": ["config:recommended", "customManagers:dockerfileVersions"],
+  "devbox": {
+    "description": "devbox.json only holds local development tools; their updates aren't worth a PR.",
+    "enabled": false
+  },
   "lockFileMaintenance": {
     "enabled": true
   }
