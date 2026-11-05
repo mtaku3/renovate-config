@@ -6,6 +6,7 @@
     "description": "devbox.json only holds local development tools; their updates aren't worth a PR.",
     "enabled": false
   },
+  "osvVulnerabilityAlerts": true,
   "lockFileMaintenance": {
     "enabled": true
   }
